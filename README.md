@@ -71,7 +71,3 @@ npm run preview
 - **`useCallback` & `useMemo`** guard against unnecessary renders: cart event handlers (`addToCart`, `removeFromCart`), cart totals, and slug-based lookups only recompute when dependencies change.
 - **Memoized context value**: `CartContext` wraps its `value` in `useMemo`, ensuring consumers update only when cart data or handlers truly change.
 - **Derived flags** (e.g., `hasItems`) and timed button states keep components readable and minimize repeated logic.
-
----
-
-Ready to extend? Plug in real APIs, add checkout flows, or deploy as-is to showcase your React craftsmanship. Have fun! 💄
